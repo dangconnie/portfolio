@@ -1,0 +1,30 @@
+.navbar{
+	position: fixed;
+}
+
+
+.header-content{
+	/* image and words */
+	background-image: url('../images/portfolio-background.jpg');
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	height: 630px;
+
+}
+
+.header-content-inner{
+	font-size: 80px;
+	color: #00FF40;
+	text-align: center;
+}
+
+.skills{
+	margin-top: 30px;
+}
+
+img{
+	max-width: 100px;
+	max-height: 100px;
+}
+
