@@ -1,3 +1,9 @@
+/* line 6, ../../compass/sass/views/_home.scss */
+* {
+  color: black;
+}
+
+/* line 24, ../../compass/sass/styles.scss */
 .navbar-default {
   background-color: white;
   border-color: rgba(34, 34, 34, 0.05);
@@ -6,22 +12,30 @@
   -moz-transition: all 0.35s;
   transition: all 0.35s;
 }
+
+/* line 32, ../../compass/sass/styles.scss */
 .navbar-default .navbar-header .navbar-brand {
   color: #F05F40;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
 }
+
+/* line 38, ../../compass/sass/styles.scss */
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
   color: #eb3812;
 }
+
+/* line 42, ../../compass/sass/styles.scss */
 .navbar-default .navbar-header .navbar-toggle {
   font-weight: 700;
   font-size: 12px;
   color: #222222;
   text-transform: uppercase;
 }
+
+/* line 48, ../../compass/sass/styles.scss */
 .navbar-default .nav > li > a,
 .navbar-default .nav > li > a:focus {
   text-transform: uppercase;
@@ -29,84 +43,111 @@
   font-size: 13px;
   color: #222222;
 }
+
+/* line 55, ../../compass/sass/styles.scss */
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
   color: #F05F40;
 }
+
+/* line 59, ../../compass/sass/styles.scss */
 .navbar-default .nav > li.active > a,
 .navbar-default .nav > li.active > a:focus {
   color: #F05F40 !important;
   background-color: transparent;
 }
+
+/* line 64, ../../compass/sass/styles.scss */
 .navbar-default .nav > li.active > a:hover,
 .navbar-default .nav > li.active > a:focus:hover {
   background-color: transparent;
 }
+
 @media (min-width: 768px) {
+  /* line 69, ../../compass/sass/styles.scss */
   .navbar-default {
     background-color: transparent;
     border-color: rgba(255, 255, 255, 0.3);
   }
+
+  /* line 73, ../../compass/sass/styles.scss */
   .navbar-default .navbar-header .navbar-brand {
     color: rgba(255, 255, 255, 0.7);
   }
+
+  /* line 76, ../../compass/sass/styles.scss */
   .navbar-default .navbar-header .navbar-brand:hover,
   .navbar-default .navbar-header .navbar-brand:focus {
     color: white;
   }
+
+  /* line 80, ../../compass/sass/styles.scss */
   .navbar-default .nav > li > a,
   .navbar-default .nav > li > a:focus {
     color: rgba(255, 255, 255, 0.7);
   }
+
+  /* line 84, ../../compass/sass/styles.scss */
   .navbar-default .nav > li > a:hover,
   .navbar-default .nav > li > a:focus:hover {
     color: white;
   }
+
+  /* line 88, ../../compass/sass/styles.scss */
   .navbar-default.affix {
     background-color: white;
     border-color: rgba(34, 34, 34, 0.05);
   }
+
+  /* line 92, ../../compass/sass/styles.scss */
   .navbar-default.affix .navbar-header .navbar-brand {
     color: #F05F40;
     font-size: 14px;
   }
+
+  /* line 96, ../../compass/sass/styles.scss */
   .navbar-default.affix .navbar-header .navbar-brand:hover,
   .navbar-default.affix .navbar-header .navbar-brand:focus {
     color: #eb3812;
   }
+
+  /* line 100, ../../compass/sass/styles.scss */
   .navbar-default.affix .nav > li > a,
   .navbar-default.affix .nav > li > a:focus {
     color: #222222;
   }
+
+  /* line 104, ../../compass/sass/styles.scss */
   .navbar-default.affix .nav > li > a:hover,
   .navbar-default.affix .nav > li > a:focus:hover {
     color: #F05F40;
   }
 }
-
-.header-content{
-	/* image and words */
-	background-image: url('../images/portfolio-background.jpg');
-	width: 100%;
-	background-size: cover;
-	background-position: center;
-	height: 630px;
-
+/* line 110, ../../compass/sass/styles.scss */
+.header-content {
+  /* image and words */
+  background-image: url("../images/portfolio-background.jpg");
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  height: 630px;
 }
 
-.header-content-inner{
-	font-size: 80px;
-	color: #00FF40;
-	text-align: center;
-	padding-top: 110px;
+/* line 120, ../../compass/sass/styles.scss */
+.header-content-inner {
+  font-size: 80px;
+  color: #00FF40;
+  text-align: center;
+  padding-top: 110px;
 }
 
-.skills{
-	margin-top: 30px;
+/* line 127, ../../compass/sass/styles.scss */
+.skills {
+  margin-top: 30px;
 }
 
-img{
-	max-width: 100px;
-	max-height: 100px;
+/* line 131, ../../compass/sass/styles.scss */
+img {
+  max-width: 100px;
+  max-height: 100px;
 }
-

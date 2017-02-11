@@ -1,3 +1,26 @@
+ @import "compass/utilities";
+ @import "compass/css3";
+
+// CONFIGS
+// -------------------------------
+@import "configs/variables";
+
+// LAYOUT
+// -------------------------------
+@import "layout/layout";
+@import "layout/header";
+@import "layout/footer";
+
+// VIEWS
+// -------------------------------
+@import "views/home";
+@import "views/subscribe";
+@import "views/choices";
+@import "views/delivery";
+@import "views/payment";
+@import "views/account";
+
+
 .navbar-default {
   background-color: white;
   border-color: rgba(34, 34, 34, 0.05);
@@ -85,28 +108,28 @@
 }
 
 .header-content{
-	/* image and words */
-	background-image: url('../images/portfolio-background.jpg');
-	width: 100%;
-	background-size: cover;
-	background-position: center;
-	height: 630px;
+  /* image and words */
+  background-image: url('../images/portfolio-background.jpg');
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  height: 630px;
 
 }
 
 .header-content-inner{
-	font-size: 80px;
-	color: #00FF40;
-	text-align: center;
-	padding-top: 110px;
+  font-size: 80px;
+  color: #00FF40;
+  text-align: center;
+  padding-top: 110px;
 }
 
 .skills{
-	margin-top: 30px;
+  margin-top: 30px;
 }
 
 img{
-	max-width: 100px;
-	max-height: 100px;
+  max-width: 100px;
+  max-height: 100px;
 }
 
