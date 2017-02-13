@@ -96,9 +96,13 @@
 
 .header-content-inner{
 	font-size: 80px;
-	color: #00FF40;
+	/* color: #ff8080; */
+  /* #ED635B */
+  color:#ED62F7; 
 	text-align: center;
 	padding-top: 110px;
+  font-weight: bold;
+
 }
 
 .skills{
